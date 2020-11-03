@@ -60,6 +60,8 @@ proxies:
   - {name: 美国 JMS-s4, server: c9s4.jamjams.net, port: 63950, type: vmess, uuid: 9dda61d3-aeae-43f4-819c-5c821581b532, alterId: 8, cipher: auto, tls: false}
   - {name: 美国 JMS-s5, server: c9s5.jamjams.net, port: 63950, type: vmess, uuid: 9dda61d3-aeae-43f4-819c-5c821581b532, alterId: 8, cipher: auto, tls: false}
   - {name: 美国 JMS-s801, server: c9s801.jamjams.net, port: 63950, type: vmess, uuid: 9dda61d3-aeae-43f4-819c-5c821581b532, alterId: 8, cipher: auto, tls: false}
+  - {name: 美国 v2ray.bwh-29859, server: 104.128.86.159, port: 63950, type: vmess, uuid: dcae2fcf-3a03-49ec-aad5-017214eb90a5, alterId: 233, cipher: auto, tls: false}
+  - {name: 美国 ss.bwh-29859, server: 104.128.86.159, port: 64949, type: ss, cipher: aes-128-gcm, password: !<str> 1234567890123456}
   
 proxy-groups:
 -
@@ -105,12 +107,14 @@ proxy-groups:
     - '中继 江苏 → 德国 01'
     - '中继 江苏 → 澳大利亚 01'
     - '中继 江苏 → 英国 01'
-    - 'JMS-s1'
-    - 'JMS-s2'
-    - 'JMS-s3'
-    - 'JMS-s4'
-    - 'JMS-s5'
-    - 'JMS-s801'
+    - '美国 JMS-s1'
+    - '美国 JMS-s2'
+    - '美国 JMS-s3'
+    - '美国 JMS-s4'
+    - '美国 JMS-s5'
+    - '美国 JMS-s801'
+    - '美国 v2ray.bwh-29859'
+    - '美国 ss.bwh-29859'
 -
   name: Domestic
   type: select
